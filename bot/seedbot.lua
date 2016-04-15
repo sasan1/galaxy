@@ -224,7 +224,17 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "addadmin",
+    "addplugin",
+    "echo",
+    "info",
+    "linkpv".
+    "plugins",
+    "time",
+    "tophoto",
+    "voice",
+    "welcome"
     },
     sudo_users = {129355262,199433012,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -427,6 +437,9 @@ Will return group ban list
 
 » Only owner can use res,setowner,promote,demote and log commands
 
+]]
+    سلام_text = [[
+    سلام
 ]]
   }
   serialize_to_file(config, './data/config.lua')
